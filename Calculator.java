@@ -16,21 +16,19 @@ public class Calculator
         Scanner operands = new Scanner(System.in); 
     } 
 
-    public int addition(int x, int y) 
-    { 
-      
-    } 
+ 
     public int subtraction(int x, int y) 
     { 
-       
+       return x - y; 
     } 
     public int multiplication(int x, int y) 
     {     
-      
+       return x * y; 
     } 
     public int division(int x, int y) 
     { 
-     
+       solution = x / y; 
+       return solution; 
     } 
 
     public void calc(int ops){
@@ -68,7 +66,7 @@ public class Calculator
       System.out.println(" Enter 4 for Division");
 
        Calculator calc = new Calculator();
-       calc.calc(1);
+       calc.calc(2);
 
 
   } 
